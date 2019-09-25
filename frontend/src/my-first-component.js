@@ -20,7 +20,7 @@ class MyFirstComponent extends PolymerElement {
     submit 
   </vaadin-button>
  </vaadin-horizontal-layout>
- <label id="label"></label>
+ <span id="label"></span>
 </vaadin-vertical-layout>
 `;
     }

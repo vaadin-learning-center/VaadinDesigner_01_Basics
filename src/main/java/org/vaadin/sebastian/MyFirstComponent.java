@@ -2,6 +2,7 @@ package org.vaadin.sebastian;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.polymertemplate.Id;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.function.SerializableConsumer;
@@ -29,7 +30,7 @@ public class MyFirstComponent extends PolymerTemplate<MyFirstComponent.MyFirstCo
     @Id("vaadinTextField")
     private TextField vaadinTextField;
     @Id("label")
-    private Label label;
+    private Span label;
 
     SerializableConsumer<MyFirstView.PersonDTO> personDTOConsumer = null;
 
