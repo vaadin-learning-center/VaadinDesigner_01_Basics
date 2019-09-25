@@ -22,8 +22,8 @@ class MyFirstView extends PolymerElement {
   <my-first-component id="myFirstComponent"></my-first-component>
   <vaadin-grid id="vaadinGrid"></vaadin-grid>
  </vaadin-vertical-layout>
- <vaadin-horizontal-layout class="footer" style="width: 100%; min-height: var(--lumo-size-l); background-color: var(--lumo-contrast-10pct)">
-  <h4>Heading 4</h4>
+ <vaadin-horizontal-layout class="footer" style="width: 100%; min-height: var(--lumo-size-l); background-color: var(--lumo-contrast-10pct); justify-content: center;">
+  <h4 id="h4">Heading 4</h4>
  </vaadin-horizontal-layout>
 </vaadin-vertical-layout>
 `;
